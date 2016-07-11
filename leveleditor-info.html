@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Andr&eacute; L Read</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="gallery.html" class="navbar-brand">Andr&eacute; Lincoln Read</a>
+			</div>
+
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="gallery.html">Projects</span></a><li>
+					<li><a href="about.html">About me</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="col-lg-2 col-md-2"></div>
+		<div class="col-lg-8 col-md-8">
+			<h1>XNA Level Editor</h1>
+			<p><em>Level Editor for an isometric game.</em></p>
+			<p>I started developing a level editor for an isometric game with XNA. The game was supposed to have four seasons. You could add and remove objects, change visible season, and save and load levels.</p>
+			<p>I've been with my Australian partner for over two years and I'm currently living in Australia, so my English sounds way better now than it does in the video.</p>
+			<dl>
+			  <dt>Year</dt><dd>2011</dd>
+			  <dt>Framework</dt><dd>XNA</dd>
+			  <dt>Development Time</dt><dd>~Several weeks</dd>
+			  <dt>Team size</dt><dd>1</dd>
+
+			</dl>
+			<h4><strong>Valuable experience and lessons</strong></h4>
+			<ul class="list-unstyled">
+				<li><span class="glyphicon glyphicon-check"></span> More experience developing a level editor</li>
+				<li><span class="glyphicon glyphicon-check"></span> Solve z-buffer problem with isometric view</li>
+				<li><span class="glyphicon glyphicon-check"></span> Only render tiles within screen boundaries and other optimizations</li>
+				<li><span class="glyphicon glyphicon-check"></span> Draw 2D art for an isometric game</li>
+			</ul>
+			<br>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" width="400" height="320" src="https://www.youtube.com/embed/yW6iriZ-2hs" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-lg-2 col-md-2"></div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/9cdc614ff9.js"></script>
+<script src="bootstrap.js"></script>
+
+<script>
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').slideUp(205); //.fadeOut(205)
+        }
+    ); 
+ </script>
+</body>
+</html>
