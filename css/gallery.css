@@ -4,6 +4,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+	font-size: 1em;
+}
+
 .thumbnail {
     position:relative;
     overflow:hidden;
@@ -23,13 +27,30 @@ body {
     font-size: 15px;
 }
 
+.jumbotron {
+	background-color: #f2f2f2;
+	margin-top: 24px;
+	padding-bottom: 32px;
+} 
+
+@media screen and (min-width: 768px) {
+	.jumbotron {
+    	padding-top: 24px;
+    	padding-bottom: 32px;
+	}
+}
+
+.jumbotron .btn {
+	margin-top: 10px;
+} 
+
 .caption h3 {
 	margin-top: 10px;
 	margin-left: 10px;
 }
 
 h4 {
-	margin: 25px 0px 15px 0px;
+	margin: 25px 0px 12px 0px;
 }
 
 .caption .when {
@@ -85,12 +106,26 @@ h4 {
 	padding-top: 10px;
 }
 
- dt {
+.btn-resume {
+	margin-top: 5px;
+}
+
+.linkedin-btn {
+	margin-top: 6px;
+}
+
+dt {
     padding-top: 12px;
 }
 
 @media (min-width: 768px) {
+
 }
 
 .thumbnail img { min-height: 50px; height: 210px; }
 .thumbnail a img { min-height: 50px; height: 210px; }
+
+#top {
+	margin-top: 0px;
+	padding-top: 0px;
+}
