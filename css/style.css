@@ -1,0 +1,88 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    background-color: #fff;
+    padding: 50px 0 200px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 80px 0 200px 0;
+  }
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+h3 {
+  margin: 10px 0px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  h3 {
+    text-align: center;
+  }
+}
+
+hr {
+  color: #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a {
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.top-link {
+  margin: 0px 5px;
+}
+
+.urls {
+  text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+  .urls {
+      margin-top: 15px;
+  }
+}
+
+.pixelme {
+  height: 30px;
+  margin-top: 5px;
+  display: block;
+}
+
+.screenshot {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.video {
+  margin-top: 20px
+}
+
+.more-row-content {
+  padding-top: 30px;
+}
+
+.award {
+  color: #FF33FF;;
+}
+
+.honor {
+  color: #7F00FF;
+}
+
