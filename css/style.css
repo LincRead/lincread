@@ -49,12 +49,16 @@ a:hover, a:focus {
   margin: 0px 5px;
 }
 
-.urls {
+.urls-top {
+  text-align: right;
+}
+
+.urls-bot {
   text-align: right;
 }
 
 @media screen and (min-width: 992px) {
-  .urls {
+  .urls-top {
       margin-top: 15px;
   }
 }
@@ -84,5 +88,13 @@ a:hover, a:focus {
 
 .honor {
   color: #7F00FF;
+}
+
+.btn-success {
+  margin-top: 5px;
+}
+
+.linkedin-btn {
+  margin-top: 10px;
 }
 
